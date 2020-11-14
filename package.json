@@ -2,7 +2,7 @@
   "name": "cube",
   "version": "1.0.0",
   "scripts": {
-    "start": "webpack serve --config webpack.dev.js --open Chrome.exe",
+    "start": "webpack serve --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js"
   },
   "author": "Igor",
@@ -27,8 +27,5 @@
     "webpack-cli": "^4.2.0",
     "webpack-dev-server": "^3.11.0",
     "webpack-merge": "^5.4.0"
-  },
-  "dependencies": {
-    "bootstrap": "^4.5.3"
   }
 }

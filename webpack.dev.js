@@ -8,5 +8,6 @@ module.exports = merge(common, {
     contentBase: 'dist',
     host: 'localhost',
     port: 3000,
+    open: 'Chrome'
   },
 });
